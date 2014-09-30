@@ -1,7 +1,7 @@
 MediaManagerService
 ===================
 
-The Media Manager API is an HTTP, JSON-based API. 
+The Media Manager API is an HTTP, JSON-based API. For a mobile application example that uses this API, please refer to the Evrybit project: http://getevrybit.com/
 <pre>
 1. Signup
 URL: /signup
