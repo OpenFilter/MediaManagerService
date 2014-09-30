@@ -2,7 +2,7 @@ MediaManagerService
 ===================
 
 Media Manager Service
-
+'''
 1. Overview
 The Media Manager API is an HTTP, JSON-based API. The API is available at: <your_url> 
 
@@ -172,4 +172,4 @@ Response:
 }
     ]
 }
-
+'''
