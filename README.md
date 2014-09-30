@@ -1,13 +1,10 @@
 MediaManagerService
 ===================
 
-Media Manager Service
-'''
-1. Overview
-The Media Manager API is an HTTP, JSON-based API. The API is available at: <your_url> 
-
-2. Signup
-URL: http://<your_url>:8888/signup
+The Media Manager API is an HTTP, JSON-based API. 
+<pre>
+1. Signup
+URL: /signup
 Method: POST 
 Request:
 {“signup”:
@@ -16,7 +13,6 @@ Request:
     “password”: XYZ
      }
 }
-
 Response:
 {“signup”:
     {
@@ -27,7 +23,7 @@ Response:
 }
 
 2. Signin
-URL: http://<your_url>/signin
+URL: /signin
 Method: POST 
 Request:
 {“signin”:
@@ -48,7 +44,7 @@ Response:
 }
 
 2. Facebook Signin
-URL: http://<your_url>/fb_signin
+URL: /fb_signin
 Method: POST 
 Request:
 {“fb_signin”:
@@ -74,7 +70,7 @@ Response:
 }
 
 3. Submit Post
-URL: http://<your_url>/submit_post
+URL: /submit_post
 Method: POST 
 File Naming Convention (same as post_id): post:<user_id><media_type><uuid>
 Request:
@@ -103,7 +99,7 @@ Response:
 
 
 4. News Feed
-URL: http://<your_url>/news_feed/session_id/<all|audio|image|text>
+URL: /news_feed/session_id/<all|audio|image|text>
 Method: GET 
 Response:
 {“news_feed”:{
@@ -139,7 +135,7 @@ Response:
 }
 
 5. Story Feed
-URL: http://<your_url>/story_feed/<story_id>
+URL: /story_feed/<story_id>
 Method: GET 
 Response:
 {“story_feed”:{
@@ -172,4 +168,4 @@ Response:
 }
     ]
 }
-'''
+</pre>
